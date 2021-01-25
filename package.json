@@ -1,0 +1,33 @@
+{
+  "name": "crud-db",
+  "version": "1.1.0",
+  "description": "This is an open-source database management system made and managed by zaid ajani",
+  "main": "db.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaidajani/crud-db.git"
+  },
+  "keywords": [
+    "database",
+    "basic",
+    "db",
+    "beginner-friendly",
+    "less-error-prone",
+    "create-read-update-delete"
+  ],
+  "author": "Zaid ajani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaidajani/crud-db/issues"
+  },
+  "homepage": "https://github.com/zaidajani/crud-db#readme",
+  "devDependencies": {
+    "jest": "^26.6.0"
+  }
+}
