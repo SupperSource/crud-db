@@ -96,17 +96,17 @@ console.log(db.get('crud-api'));
 // you can even store it in a varialble.
 ```
 
-command 5: readAllData
+Command 5: readAllData
 
-using the function `.readAllData()` you will be able to read all the data in the database, and can asign it to a variable, do some sorting, or just print it on to the console.
+Using the function `.readAllData()` you will be able to read all the data in the database, and can asign it to a variable, do some sorting, or just print it on to the console.
 
-example:
+Example:
 
 ```javascript
 console.log(db.readAllData());
 ```
 
-this will return All the content in the database at that particular time.
+This will return All the content in the database at that particular time.
 
 Fun fact:
 
@@ -114,7 +114,7 @@ Fun fact:
 
 ## test
 
-run `npm test` to see how functional the app is and the testing status. If it is not working, make an issue on the repository.
+Run `npm test` to see how functional the app is and the testing status. If it is not working, make an issue on the repository.
 
 ## Hacktoberfest
 
