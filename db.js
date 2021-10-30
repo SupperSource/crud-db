@@ -2,6 +2,8 @@ const fs = require('fs');
 let db = {};
 updateDbVariable();
 
+// function initialize
+
 function initialize() {
   try {
     fs.readFileSync('database.dbs', 'utf-8');
@@ -16,6 +18,8 @@ function initialize() {
   }
 }
 
+// refresher
+
 function updateDbVariable() {
   try {
     db = JSON.parse(fs.readFileSync('database.dbs', 'utf-8'));
@@ -24,6 +28,8 @@ function updateDbVariable() {
   }
 }
 
+// refresher
+
 function updateDb(data) {
   try {
     fs.writeFileSync('database.dbs', JSON.stringify(data));
@@ -31,6 +37,8 @@ function updateDb(data) {
     console.log('Error', error);
   }
 }
+
+// usable functions
 
 function add(key, value) {
   db[key] = value;
@@ -52,6 +60,8 @@ function vanish(key) {
 function readAllData() {
   return db;
 }
+
+// exports
 
 module.exports = {
   initialize,
